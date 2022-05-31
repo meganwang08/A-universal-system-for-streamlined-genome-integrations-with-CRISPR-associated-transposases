@@ -6,7 +6,7 @@
 
 ### Equivalence Table of Genomic Locations
 
-| Location from [Wang et al. Nature 2016]{https://doi.org/10.1038/nature20124} | Name in this Study |
+| Location from [Wang et al. Nature 2016](https://doi.org/10.1038/nature20124) | Name in this Study |
 | ------------------------------------- | ------------------ |
 | L02 | TS1 |
 | L09 | TS2 |
