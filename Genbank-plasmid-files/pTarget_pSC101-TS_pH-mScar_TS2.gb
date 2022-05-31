@@ -1,0 +1,317 @@
+LOCUS       Exported                5231 bp ds-DNA     circular SYN 10-DEC-2021
+DEFINITION  Kanamycin resistance donor for ShCAST.
+ACCESSION   .
+VERSION     .
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+REFERENCE   1  (bases 1 to 5231)
+  AUTHORS   Strecker J, Ladha A, Gardner Z, Schmid-Burgk JL, Makarova KS, Koonin
+            EV, Zhang F
+  TITLE     RNA-guided DNA insertion with CRISPR-associated transposases.
+  JOURNAL   Science. 2019 Jul 5;365(6448):48-53. doi: 10.1126/science.aax9181. 
+            Epub 2019 Jun 6.
+  PUBMED    31171706
+REFERENCE   2  (bases 1 to 5231)
+  AUTHORS   .
+  TITLE     Direct Submission
+  JOURNAL   Exported Monday, May 9, 2022 from SnapGene 5.1.7
+            https://www.snapgene.com
+COMMENT     SGRef: number: 1; type: "Journal Article"; journalName: "Science. 
+            2019 Jul 5"; volume: "365(6448)"; pages: "48-53. doi: 
+            10.1126/science.aax9181. Epub 2019 Jun 6"
+FEATURES             Location/Qualifiers
+     source          1..5231
+                     /organism="synthetic DNA construct"
+                     /mol_type="other DNA"
+     misc_feature    1..6
+                     /label=HpaI Site
+     misc_feature    7..335
+                     /label=L09-crRNA-target
+     terminator      44..91
+                     /label=T7 terminator
+                     /note="transcription terminator for bacteriophage T7 RNA 
+                     polymerase"
+     primer_bind     146..235
+                     /label=L09_crRNA_REV
+     misc_feature    176..203
+                     /label=V. cholarae repeat
+     misc_feature    201..203
+                     /label=BssSaI/BssSI-V2 Site
+     primer_bind     complement(204..293)
+                     /label=L09_crRNA_FWD
+     misc_feature    204..235
+                     /label=L09_target
+     misc_feature    204..235
+                     /label=L09 - 500kb
+     gene            complement(204..235)
+                     /gene="ymgE"
+                     /gene_synonym="b1195;ECK1183;JW1184"
+                     /locus_tag="ECMDS42_0982"
+                     /label=ymgE
+     CDS             complement(204..235)
+                     /codon_start=1
+                     /gene="ymgE"
+                     /gene_synonym="b1195;ECK1183;JW1184"
+                     /locus_tag="ECMDS42_0982"
+                     /product="predicted inner membrane protein"
+                     /label=ymgE
+                     /db_xref="GI:359331813"
+                     /protein_id="BAL38260.1"
+                     /translation="VAVVGAILVL"
+     primer_bind     236..297
+                     /label=AddJSeries_crRNA_REV
+     misc_feature    236..263
+                     /label=V. cholarae repeat
+     misc_feature    261..266
+                     /label=PmlI
+     misc_feature    264..266
+                     /label=PmlI
+     promoter        complement(267..301)
+                     /label=J23119(SpeI) promoter
+                     /note="bacterial promoter (Registry of Standard Biological 
+                     Parts BBa_J23119) modified to end with an SpeI site"
+     promoter        complement(267..293)
+                     /label=J23119(SpeI) promoter
+                     /note="bacterial promoter (Registry of Standard Biological 
+                     Parts BBa_J23119) modified to end with an SpeI site"
+     primer_bind     282..334
+                     /label=pEffector_fix_REV
+     CDS             complement(302..306)
+                     /codon_start=1
+                     /gene="telN"
+                     /product="protelomerase of coliphage N15"
+                     /label=TelN
+                     /note="generates the covalently closed hairpin telomeres"
+                     /translation="V"
+     misc_feature    302..306
+                     /label=AleI Site
+     primer_bind     complement(312..369)
+                     /label=Universal_pTarget_PCR_REV
+     primer_bind     336..367
+                     /label=pTarget_BB_FWD
+     misc_feature    336..343
+                     /label=PmeI Site
+     CDS             complement(350..1375)
+                     /codon_start=1
+                     /gene="aph(4)-Ia"
+                     /product="aminoglycoside phosphotransferase from E. coli 
+                     (positive selection marker)"
+                     /label=HygR
+                     /note="confers resistance to hygromycin"
+                     /translation="MKKPELTATSVEKFLIEKFDSVSDLMQLSEGEESRAFSFDVGGRG
+                     YVLRVNSCADGFYKDRYVYRHFASAALPIPEVLDIGEFSESLTYCISRRAQGVTLQDLP
+                     ETELPAVLQPVAEAMDAIAAADLSQTSGFGPFGPQGIGQYTTWRDFICAIADPHVYHWQ
+                     TVMDDTVSASVAQALDELMLWAEDCPEVRHLVHADFGSNNVLTDNGRITAVIDWSEAMF
+                     GDSQYEVANIFFWRPWLACMEQQTRYFERRHPELAGSPRLRAYMLRIGLDQLYQSLVDG
+                     NFDDAAWAQGRCDAIVRSGAGTVGRTQIARRSAAVWTDGCVEVLADSGNRRPSTRPRAK
+                     E"
+     primer_bind     350..390
+                     /label=pH_universal_R
+     primer_bind     complement(406..427)
+                     /label=Hygro_end_seq_F
+     primer_bind     complement(515..548)
+                     /label=Hyg_861f
+     primer_bind     complement(654..680)
+                     /label=Hygro_end_seq_F2
+     primer_bind     1238..1272
+                     /label=HygR_138r
+     misc_feature    1376..1386
+                     /label=RBS
+     misc_feature    complement(1387..2370)
+                     /label=PheS T251A A294G
+                     /note="Negative selection marker"
+     primer_bind     complement(1448..1481)
+                     /label=pheS_923f
+     primer_bind     1993..2027
+                     /label=pheS_344r
+     promoter        complement(2389..2436)
+                     /label=EM7 promoter
+                     /note="synthetic bacterial promoter "
+     promoter        complement(2389..2436)
+                     /label=EM7 promoter
+                     /note="synthetic bacterial promoter "
+     primer_bind     complement(2406..2441)
+                     /label=pH_universal_F
+     primer_bind     complement(2419..2441)
+                     /label=BAConj_v1_PheS-Hyg_F
+     misc_feature    2436..2441
+                     /label=PmlI Site
+     gap             2442..2447
+                     /label=MluI Site
+                     /estimated_length=6
+     misc_feature    2448..2481
+                     /label=L_oriT2_gBlock
+     misc_feature    complement(2448..2481)
+                     /label=BBa_B1002 Terminator
+     misc_feature    2482..2487
+                     /label=SacI
+     terminator      2488..2495
+                     /gene="Escherichia coli rrnB"
+                     /label=rrnB T1 terminator
+                     /note="transcription terminator T1 from the E. coli rrnB 
+                     gene"
+     CDS             complement(2504..3202)
+                     /codon_start=1
+                     /label=mScarlet
+                     /translation="MVSKGEAVIKEFMRFKVHMEGSMNGHEFEIEGEGEGRPYEGTQTA
+                     KLKVTKGGPLPFSWDILSPQFMYGSRAFIKHPADIPDYYKQSFPEGFKWERVMNFEDGG
+                     AVTVTQDTSLEDGTLIYKVKLRGTNFPPDGPVMQKKTMGWEASTERLYPEDGVLKGDIK
+                     MALRLKDGGRYLADFKTTYKAKKPVQMPGAYNVDRKLDITSHNEDYTVVEQYERSEGRH
+                     STGGMDELYK"
+     misc_feature    3203..3230
+                     /label=BBa_B0030 Full
+     RBS             3209..3220
+                     /note="strong bacterial ribosome binding site (Elowitz and 
+                     Leibler, 2000)"
+     misc_feature    3225..3230
+                     /label=XbaI Site
+     promoter        complement(3231..3265)
+                     /label=J23119 promoter
+                     /note="bacterial promoter (Registry of Standard Biological 
+                     Parts BBa_J23119)"
+     primer_bind     3232..3261
+                     /label=AddJSeries_crRNA_REV
+     misc_feature    3266..3271
+                     /label=NruI Site
+     primer_bind     complement(3288..3316)
+                     /label=pDonor_Linear_Check_REV
+     primer_bind     3398..3431
+                     /label=pSC101_Seq_1_FWD
+     rep_origin      3487..3709
+                     /label=pSC101 ori
+                     /note="low-copy replication origin that requires the Rep101
+                     protein"
+     CDS             3757..4707
+                     /codon_start=1
+                     /gene="rep101"
+                     /product="Binds at 30C, does not at 42C. To cure grow at 
+                     42C
+                     RepA protein needed for replication with the pSC101 origin"
+                     /label=Temperature Sensitive Rep101
+                     /translation="MSELVVFKANELAISRYDLTEHETKLILCCVALLNPTIENPTRKE
+                     RTVSFTYNQYAQMMNISRENAYGVLAKATRELMTRTVEIRNPLVKGFEIFQWTNYAKFS
+                     SEKLELVFSEEILPYLFQLKKFIKYNLEHVKSFENKYSMRIYEWLLKELTQKKTHKANI
+                     EISLDEFKFMLMLENNYHEFKRLNQWVLKPISKDLNTYSNMKLVVDKRGRPTDTLIFQV
+                     ELDRQMDLVTELENNQIKMNGDKIPTTITSDSYLRNGLRKTLHDALTAKIQLTSFEAKF
+                     LSDMQSKYDLNGSFSWLTQKQRTTLENILAKYGRI"
+     primer_bind     3844..3874
+                     /label=pSC101_Seq_3_FWD
+     primer_bind     complement(3939..3977)
+                     /label=pSC101_Seq_2_REV
+     primer_bind     complement(3982..4006)
+                     /label=pSC101_outward_seq_R
+     primer_bind     complement(4292..4324)
+                     /label=pSC101_Seq_4_REV
+     primer_bind     4352..4388
+                     /label=pSC101_Seq_5_FWD
+     misc_feature    4621..4623
+                     /label=His to Tyr temperature sensitive change
+     primer_bind     complement(4674..4709)
+                     /label=pSC101_Seq_7_REV
+     primer_bind     4824..4858
+                     /label=pDonor_Linear_Check_FWD
+     misc_feature    4880..4885
+                     /label=XhoI Site
+     misc_feature    complement(4936..5170)
+                     /label=small oriT region
+     oriT            4936..5044
+                     /note="incP origin of transfer"
+     oriT            complement(4936..5044)
+                     /direction=LEFT
+                     /label=incP origin of transfer - missing last bp of nick
+                     /label=incP origin of transfer
+     primer_bind     join(5205..5231,1..34)
+                     /label=Universal_pTarget_PCR_FWD
+     primer_bind     complement(join(5210..5231,1..6))
+                     /label=pTarget_BB_REV
+ORIGIN
+        1 gttaaccgag gcagggggaa ttcccaatta gatgggttta aaccaaaaaa cccctcaaga
+       61 cccgtttaga ggccccaagg ggttatgcta gttattgctc agcggtggca gcagccttat
+      121 gtaaataagt tggccatctt ccttaagcgg gtttgttagc agccggatct ctcgagttat
+      181 cagctaccta ctcggcagtt caccagaacg agaatagctc ccaccaccgc caccagttat
+      241 cagctaccta ctcggcagtt cacgtgacta gtattatacc taggactgag ctagctgtca
+      301 acacaagcgt gcgaccgatg cccttgagag ccttcgttta aaccctaggt tattcctttg
+      361 ccctcggacg agtgctgggg cgtcggtttc cactatcggc aagtacttct acacagccat
+      421 cggtccagac ggccgcgctt ctgcgggcga tttgtgtacg cccgacagtc ccggctccgg
+      481 atcggacgat tgcgtcgcat cgaccctgcg cccaagctgc atcatcgaaa ttgccgtcaa
+      541 ccaagctctg atagagttgg tcaagaccaa tgcggagcat atacgcccgg agccgcggcg
+      601 atcctgcaag ctccggatgc ctccgctcga agtagcgcgt ctgctgctcc atacaagcca
+      661 accacggcct ccagaagaag atgttggcga cctcgtattg ggaatccccg aacatcgcct
+      721 cgctccagtc aatgaccgct gttatgcggc cattgtccgt caggacattg ttggagccga
+      781 aatccgcgtg cacgaggtgc cggacttcgg ggcagtcctc ggcccaaagc atcagctcat
+      841 cgagagcctg cgcgacggac gcactgacgg tgtcgtccat cacagtttgc cagtgataca
+      901 catggggatc agcaatcgcg catatgaaat cacgccatgt agtgtattga ccgattcctt
+      961 gcggtccgaa tgggccgaac ccgctcgtct ggctaagatc ggccgcagcg atcgcatcca
+     1021 tggcctccgc gaccggctgc agaacagcgg gcagttcggt ttcaggcagg tcttgcaacg
+     1081 tgacaccctg tgcacggcgg gagatgcaat aggtcaggct ctcgctgaat tccccaatgt
+     1141 caagcacttc cggaatcggg agcgcggccg atgcaaagtg ccgataaaca taacgatctt
+     1201 tgtagaaacc atcggcgcag ctatttaccc gcaggacata tccacgccct cctacatcga
+     1261 agctgaaagc acgagattct tcgccctccg agagctgcat caggtcggag acgctgtcga
+     1321 acttttcgat cagaaacttc tcgacagacg tcgcggtgag ttcaggcttt ttcatgattg
+     1381 tcctccttat ttaaactgtt tgaggaaacg cagatcgttt tcgaagaatg aacgcaggtc
+     1441 ggtgacgccg taacgcaaca tagtcagacg ctccatcccc atcccgaagc cgaaaccaga
+     1501 gtaaacttcc gggtcgatgc caacgttacg caacacgttc ggatgcacca tcccgcagcc
+     1561 cagcacttcc agccatttac cgtttttacc catgacgtcc acttctgcag aaggttcggc
+     1621 aaacgggaag taggaaggac ggaagcgaat ctgcaaatct tcctcaaaga agttacgcag
+     1681 gaagtcgtgc agcgtgcctt tcaggttggt aaagctgatg ttggtatcaa caatcagacc
+     1741 ttccatctga tggaacatcg gcgtgtgagt ctggtcgtag tcgttacgat aaacacggcc
+     1801 aggcgcgatg atacgaatcg gtggctgctg ggctttcatg gtgcggatct gtacgccaga
+     1861 ggtctgggta cgcagcaggc gggtagtgtc aaaccagaaa gtgtcgtggt cagcgcgcgc
+     1921 cgggtggtga ccaggaatgt tcagagcatc gaagttatga taatcgtctt cgatttccgg
+     1981 cccggttgcc acggtaaagc caagctcacc gaagaaactt tcgatacggt cgatggtacg
+     2041 ggtaaccgga tgcagaccgc cgttttcaat gcgacgacct ggcagagaga catcaatcgt
+     2101 ttccgccgcc agacgcgcat tcagtgcagc gctttccagt tccgctttac gcgcattcag
+     2161 cgcctgctga acctgctctt tcgcttcgtt gataaccgca ccagctgccg gacgctcttc
+     2221 tggcggcagc tcacgcaggg tcgtcatctg aagggttaag tgcccttttt tacccaaata
+     2281 ttcgacgcgc acattatcta acgcggcaac atctgacgcc tggctaatgg ccgccttcgc
+     2341 actggcaacc agttctgcga gatgtgacat ggtttagttc ctcaccttgt cgtattatac
+     2401 tatgccgata tactatgccg atgattaatt gtcaacacgt gacgcgtgcg aaaaaacccc
+     2461 gccgaagcgg ggttttttgc ggagctcttt atttggcggc cgcttacttg tataactcgt
+     2521 ccataccgcc cgtagagtga cgcccctcac tgcgctcata ctgctctacg accgtgtaat
+     2581 cttcattgtg acttgtaata tctaatttac gatctacatt gtacgcaccc ggcatctgca
+     2641 ctggtttttt ggccttgtaa gtagtcttga agtccgccag gtagcggcct ccatctttaa
+     2701 gacgcagcgc cattttgata tcccctttaa gaacaccgtc ctctgggtaa aggcgctccg
+     2761 tggaagcttc ccatcccatt gtctttttct gcatgacagg cccatcaggt ggaaaattcg
+     2821 tgccacgcaa tttcactttg tagatcaacg taccgtcctc caaagaggta tcttgggtga
+     2881 ccgtcacggc tccgccatcc tcgaagttca tcacgcgctc ccacttgaac ccctcgggga
+     2941 aagactgttt gtagtaatct gggatgtccg cagggtgctt gatgaaagcg cgactcccgt
+     3001 acataaactg tgggcttaaa atgtcccacg aaaagggtaa tggaccgcct ttagtaacct
+     3061 taagctttgc ggtttgggtc ccttcatatg ggcggccttc gccttcgcct tcaatttcaa
+     3121 attcgtgccc gttcatcgac ccttccatat gaactttgaa gcgcatgaac tctttgataa
+     3181 ctgcttcgcc tttactgacc atctagtatt tctcctcttt aatctctaga gctagcatta
+     3241 tacctaggac tgagctagct gtaaatcgcg agtgagcgca gcgaactgaa tgtcacgaaa
+     3301 aagacagcga ctcaggtgcc tgatggtcgg agacaaaagg aatattcagc gatttgcccg
+     3361 attgcggccg caaccgagct tgcgagggtg ctacttaagc ctttagggtt ttaaggtctg
+     3421 ttttgtagag gagcaaacag cgtttgcgac atccttttgt aatactgcgg aactgactaa
+     3481 agtagtgagt tatacacagg gctgggatct attcttttta tcttttttta ttctttcttt
+     3541 attctataaa ttataaccac ttgaatataa acaaaaaaaa cacacaaagg tctagcggaa
+     3601 tttacagagg gtctagcaga atttacaagt tttccagcaa aggtctagca gaatttacag
+     3661 atacccacaa ctcaaaggaa aaggactagt aattatcatt gactagccca tctcaattgg
+     3721 tatagtgatt aaaatcacct agaccaattg agatgtatgt ctgaattagt tgttttcaaa
+     3781 gcaaatgaac tagcgattag tcgctatgac ttaacggagc atgaaaccaa gctaatttta
+     3841 tgctgtgtgg cactactcaa ccccacgatt gaaaacccta caaggaaaga acggacggta
+     3901 tcgttcactt ataaccaata cgctcagatg atgaacatca gtagggaaaa tgcttatggt
+     3961 gtattagcta aagcaaccag agagctgatg acgagaactg tggaaatcag gaatcctttg
+     4021 gttaaaggct ttgagatttt ccagtggaca aactatgcca agttctcaag cgaaaaatta
+     4081 gaattagttt ttagtgaaga gatattgcct tatcttttcc agttaaaaaa attcataaaa
+     4141 tataatctgg aacatgttaa gtcttttgaa aacaaatact ctatgaggat ttatgagtgg
+     4201 ttattaaaag aactaacaca aaagaaaact cacaaggcaa atatagagat tagccttgat
+     4261 gaatttaagt tcatgttaat gcttgaaaat aactaccatg agtttaaaag gcttaaccaa
+     4321 tgggttttga aaccaataag taaagattta aacacttaca gcaatatgaa attggtggtt
+     4381 gataagcgag gccgcccgac tgatacgttg attttccaag ttgaactaga tagacaaatg
+     4441 gatctcgtaa ccgaacttga gaacaaccag ataaaaatga atggtgacaa aataccaaca
+     4501 accattacat cagattccta cctacgtaac ggactaagaa aaacactaca cgatgcttta
+     4561 actgcaaaaa ttcagctcac cagttttgag gcaaaatttt tgagtgacat gcaaagtaag
+     4621 tatgatctca atggttcgtt ctcatggctc acgcaaaaac aacgaaccac actagagaac
+     4681 atactggcta aatacggaag gatctgaggt tcttatggct cttgtatcta tcagtgaagc
+     4741 atcaagacta acaaacaaaa gtagaacaac tgttcaccgt tacatatcaa agggaaaact
+     4801 gtccataccc atggattctt cgtctgtttc tactggtatt ggcacaaacc tgattccaat
+     4861 ttgagcaagg ctatgtgccc tcgagtatca acaggttgaa ctgcccatgt tctttcctgc
+     4921 gttatcagag cttatcggcc agcctcgcag agcaggattc ccgttgagca ccgccaggtg
+     4981 cgaataaggg acagtgaaga aggaacaccc gctcgcgggt gggcctactt cacctatcct
+     5041 gcccggctga cgccgttgga tacaccaagg aaagtctaca cgaacccttt ggcaaaatcc
+     5101 tgtatatcgt gcgaaaaagg atggatatac cgaaaaaatc gctataatga ccccgaagca
+     5161 gggttatgca gcggaaagta aaaaattttt agtttattag acatctccac aaaaggcgta
+     5221 gtgtacagtg a
+//
