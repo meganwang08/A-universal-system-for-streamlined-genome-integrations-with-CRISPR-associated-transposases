@@ -1,7 +1,8 @@
-## Plasmid Sequences and NGS Pipeline for "A Universal System for Streamlined Genome Integrations with CRISPR-associated Transposases"
+## Additional Files for "A Universal System for Streamlined Genome Integrations with CRISPR-associated Transposases"
 
 - Amplicon NGS analysis
 - Plasmid sequences in Snapgene and genbank formats
+- Genome targets in Snapgene and genbank formats
 - Raw CFU data for experiments
 
 ### Equivalence Table of Genomic Locations
